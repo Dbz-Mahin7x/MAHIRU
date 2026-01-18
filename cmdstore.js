@@ -1,9 +1,9 @@
 const axios = require("axios");
 
 const CMDSRUL_URL =
-  "https://raw.githubusercontent.com/Dbz-Mahin7x/Mahiru_Shina/main/CMDSRUL.json";
+  "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/CMDSRUL.json";
 const CMDS_URL =
-  "https://raw.githubusercontent.com/Dbz-Mahin7x/Mahiru_Shina/main/CMDS.json";
+  "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/CMDS.json";
 
 const ITEMS_PER_PAGE = 6;
 
