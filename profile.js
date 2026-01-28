@@ -6,8 +6,8 @@ const path = require("path");
 module.exports = {
   config: {
     name: "profile",
-    aliases: ["dp", "pp", "pfp", "ump"], // 🐾 aliases
-    version: "2.0.0",
+    aliases: ["dp", "pp", "pfp", "ump"],
+    version: "2.1.0",
     author: "𝓡𝓮𝓷𝓽𝓪𝓻𝓸 𝐴𝓲𝓳𝓸 🌸🫧",
     role: 0,
     countDown: 5,
@@ -24,32 +24,28 @@ module.exports = {
     const avatarPath = path.join(cacheDir, "avatar.png");
     const coverPath = path.join(cacheDir, "cover.png");
 
+    // Fresh token for fetching cover photos and high-res avatars
+    const token = "350685531728|62f8ce9f74b12f84c123cc23462a4a61";
+
     try {
       if (!fs.existsSync(cacheDir)) fs.mkdirSync(cacheDir);
 
       let uid;
-
-      // 🐾 Reply
       if (event.type === "message_reply") {
         uid = event.messageReply.senderID;
-      }
-      // 🐾 Mention
-      else if (Object.keys(event.mentions || {}).length > 0) {
+      } else if (Object.keys(event.mentions || {}).length > 0) {
         uid = Object.keys(event.mentions)[0];
-      }
-      // 🐾 Link
-      else if (args[0] && args[0].includes(".com/")) {
+      } else if (args[0] && args[0].includes(".com/")) {
         uid = await api.getUID(args[0]);
-      }
-      // 🐾 Self
-      else {
+      } else {
         uid = event.senderID;
       }
 
       const name = await usersData.getName(uid);
 
-      const avatarURL = `https://graph.facebook.com/${uid}/picture?height=1500&width=1500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`;
-      const coverURL = `https://graph.facebook.com/${uid}?fields=cover&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`;
+      // ✨ UPDATED: Stable high-res Avatar and Cover URLs
+      const avatarURL = `https://graph.facebook.com/${uid}/picture?height=1500&width=1500&access_token=${token}`;
+      const coverURL = `https://graph.facebook.com/${uid}?fields=cover&access_token=${token}`;
 
       // 🌸 Fetch cover
       let coverImage = null;
@@ -63,7 +59,9 @@ module.exports = {
           );
           coverImage = fs.createReadStream(coverPath);
         }
-      } catch {}
+      } catch (err) {
+        console.log("No cover found or token error for cover.");
+      }
 
       // 🌸 Fetch avatar
       await new Promise(resolve =>
@@ -79,20 +77,7 @@ module.exports = {
 
       api.sendMessage(
         {
-          body:
-`⋆˚✿˖°────୨🪽୧────°˖✿˚⋆
-🐾🪄 𝓟𝓻𝓸𝓯𝓲𝓵𝓮 𝓥𝓲𝓮𝔀𝓮𝓻 🪄🐾
-
-🎀 𝐍𝐚𝐦𝐞 : ${name}
-🦋 𝐔𝐬𝐞𝐫 𝐈𝐃 : ${uid}
-🪻 𝐋𝐢𝐧𝐤 : https://facebook.com/${uid}
-
-✨ 𝐀𝐯𝐚𝐭𝐚𝐫 & 𝐂𝐨𝐯𝐞𝐫 𝐑𝐞𝐚𝐝𝐲 💕
-
-🍬 
-
-❤️‍🔥 Enjoy the cuteness!
-⋆˚✿˖°────୨🫧୧────°˖✿˚⋆`,
+          body: `⋆˚✿˖°────୨🪽୧────°˖✿˚⋆\n🐾🪄 𝓟𝓻𝓸𝓯𝓲𝓵𝓮 𝓥𝓲𝓮𝔀𝓮𝓻 🪄🐾\n\n🎀 𝐍𝐚𝐦𝐞 : ${name}\n🦋 𝐔𝐬𝐞𝐫 𝐈𝐃 : ${uid}\n🪻 𝐋𝐢𝐧𝐤 : https://facebook.com/${uid}\n\n✨ 𝐀𝐯𝐚𝐭𝐚𝐫 & 𝐂𝐨𝐯𝐞𝐫 𝐑𝐞𝐚𝐝𝐲 💕\n\n❤️‍🔥 Enjoy the cuteness!\n⋆˚✿˖°────୨🫧୧────°˖✿˚⋆`,
           attachment: attachments
         },
         event.threadID,
@@ -105,13 +90,7 @@ module.exports = {
 
     } catch (err) {
       console.error(err);
-      api.sendMessage(
-`🐾🫧 Oopsie Cutie!
-✨ Something went wrong 💔
-🍬 Please try again later`,
-        event.threadID,
-        event.messageID
-      );
+      api.sendMessage("🐾🫧 Oopsie! Something went wrong while fetching the profile. 💔", event.threadID, event.messageID);
     }
   }
 };
