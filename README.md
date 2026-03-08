@@ -1,112 +1,277 @@
-##
-🎀Tʜɪs ɪs ᴀ ᴄᴍᴅ sᴛᴏʀᴇ ᴍᴀᴅᴇ ғᴏʀ ᴜsᴇ ɪɴ Mᴀʜɪʀᴜ-Sʜɪɴᴀ🍭✨Eɴᴊᴏʏ ᴀɴᴅ ɪғ ʏᴏᴜʀ ʟᴏᴏᴋɪɴɢ ғᴏʀ Gᴏᴀᴛ-ʙᴏᴛ Rᴇᴘᴏ🎀Dᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ ᴄʜᴇᴄᴋ Mʏ Rᴇᴘᴏ  🌨️ʀɪɢʜᴛs ᴏᴡɴᴇᴅ Bʏ Mᴀʜɪɴ Aʜᴍᴇᴅ(Rᴇɴᴛᴀʀᴏ Aɪᴊᴏ)🦋
-
-## 💖 **𝓐𝓫𝓸𝓾𝓽 𝓜𝓮** 🍡
-
-<div align="center">
-  <div style="background: linear-gradient(45deg, #ffb6c1, #ffccf9, #ccf2ff); padding: 25px; border-radius: 25px; border: 5px double #ff69b4; margin: 20px;">
-    
-<table>
-  <tr>
-    <td width="50%">
-      <div style="background: white; padding: 20px; border-radius: 20px; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
-        <h3 style="color: #ff1493; text-align: center;">🌸 𝓜𝔂 𝓓𝓮𝓽𝓪𝓲𝓵𝓼 🌸</h3>
-        <p>🎀 <b>𝐍𝐚𝐦𝐞:</b> 𝐌𝐚𝐡𝐢𝐧 𝐀𝐡𝐦𝐞𝐝 (まひん)</p>
-        <p>🍓 <b>𝐀𝐠𝐞:</b> 16 𝐘𝐞𝐚𝐫 </p>
-        <p>🏡 <b>𝐅𝐫𝐨𝐦:</b> 𝐓𝐡𝐞 𝐅𝐮𝐭𝐮𝐫𝐞 </p>
-        <p>💝 <b>𝐒𝐭𝐚𝐭𝐮𝐬:</b> 𝐈 𝐌𝐢𝐬𝐬 𝐇𝐞𝐫 💔</p>
-        <p>🎵 <b>𝐓𝐡𝐞𝐦𝐞 𝐒𝐨𝐧𝐠:</b> 𝐋𝐞𝐭 𝐇𝐞𝐫 𝐆𝐨 🎀</p>
-      </div>
-    </td>
-    <td width="50%">
-      <div style="background: white; padding: 20px; border-radius: 20px; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
-        <h3 style="color: #ff1493; text-align: center;">✨ 𝓜𝔂 𝓟𝓪𝓼𝓼𝓲𝓸𝓷𝓼 ✨</h3>
-        <p>💻 <b>𝐂𝐨𝐝𝐞:</b> 𝐉𝐬 𝐀𝐧𝐝 𝐋𝐨𝐯𝐞 </p>
-        <p>🎨 <b>𝐃𝐞𝐬𝐢𝐠𝐧:</b> 𝐊𝐚𝐰𝐚𝐢𝐢 𝐔𝐈/𝐔𝐗</p>
-        <p>🤖 <b>𝐁𝐨𝐭:</b> 🫧🪼𝓜𝓪𝓱𝓲𝓻𝓾🎀𝓢𝓱𝓲𝓷𝓪🩷🪽🐾 </p>
-        <p>🍜 <b>𝐅𝐨𝐨𝐝:</b> Ramen + Bubble Tea</p>
-        <p>🎮 <b> 𝐆𝐚𝐦𝐞 :</b> 𝐅𝐫𝐞𝐞 𝐅𝐢𝐫𝐞 </p>
-      </div>
-    </td>
-  </tr>
-</table>
-
-  </div>
-</div>
-
----
-
-## 🎨 **𝓣𝓮𝓬𝓱 𝓢𝓽𝓪𝓬𝓴** 🛠️
-
-<div align="center">
-  
-  <!-- Tech Icons with Animation -->
-  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; padding: 20px; background: #fff0f5; border-radius: 25px; border: 3px dashed #ff99cc;">
-    <img src="https://img.shields.io/badge/JavaScript-FFB6C1?style=for-the-badge&logo=javascript&logoColor=black" />
-    <img src="https://img.shields.io/badge/Node.js-FF99CC?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-    <img src="https://img.shields.io/badge/React-FF69B4?style=for-the-badge&logo=react&logoColor=white" />
-    <img src="https://img.shields.io/badge/TypeScript-FF1493?style=for-the-badge&logo=typescript&logoColor=white" />
-    <img src="https://img.shields.io/badge/MongoDB-FFB6C1?style=for-the-badge&logo=mongodb&logoColor=green" />
-    <img src="https://img.shields.io/badge/Git-FF99CC?style=for-the-badge&logo=git&logoColor=white" />
-    <img src="https://img.shields.io/badge/VSCode-FF69B4?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-    <img src="https://img.shields.io/badge/HTML5-FF1493?style=for-the-badge&logo=html5&logoColor=white" />
-    <img src="https://img.shields.io/badge/CSS3-FFB6C1?style=for-the-badge&logo=css3&logoColor=white" />
-    <img src="https://img.shields.io/badge/Tailwind-FF99CC?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  </div>
-## 🔥 Profile Views
-
- <p align="center">
-  <img width="400px" src="https://count.getloli.com/get/@Dbz-Mahin7x?theme=rule34"></img>
+<p align="center">
+  <img src="https://files.catbox.moe/eldlq4.jpg" alt="MAHIRU Banner" width="100%" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
 </p>
-## 🛠️ My Tech Stack
+
+<h1 align="center">
+  🎀 𝐌𝐀𝐇𝐈𝐑𝐔 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐒𝐓𝐎𝐑𝐄 ✨
+</h1>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,php,html,css,react,mongodb,mysql,git,bash,vscode,linux" />
+  <img src="https://img.shields.io/badge/Version-2.0.0-purple?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/Commands-3_Total-blue?style=for-the-badge&logo=javascript">
+  <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=for-the-badge&logo=vercel">
+  <img src="https://img.shields.io/badge/API-Ready-ff69b4?style=for-the-badge&logo=json">
+</p>
+
+<p align="center">
+  <b>⚡ Central hub for managing and distributing custom JavaScript commands via raw GitHub links ⚡</b>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=%F0%9F%93%A6+Command+Storage+System;%F0%9F%9A%80+Fast+%26+Reliable;%F0%9F%93%8C+Raw+GitHub+Links" alt="Typing SVG">
 </p>
 
 ---
-##
-  <!-- Streak -->
-  <img height="200em" src="https://github-readme-streak-stats.herokuapp.com/?user=Dbz-Mahin7x&theme=radical&background=ffb6c10d&ring=ff1493&fire=ff69b4&currStreakLabel=ff1493&border=ff99cc&hide_border=true" />
-</div>
-## ✨ My Coding Activity
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dbz-Mahin7x&bg_color=0d1117&color=ff66cc&line=00ffff&point=ffffff&area=true&area_color=ff66cc" alt="GitHub Activity Graph" />
-</div>
+## 🎀 𝐀𝐔𝐓𝐇𝐎𝐑 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍
+
+<p align="center">
+  <table align="center">
+    <tr>
+      <td align="center">
+        <img src="https://img.icons8.com/color/48/000000/user.png" width="40"><br>
+        <b>Developer</b><br>
+        <span style="font-size: 1.2em;">✨ 𝐌𝐀𝐇𝐈𝐍 ✨</span>
+      </td>
+      <td align="center">
+        <img src="https://img.icons8.com/color/48/000000/github.png" width="40"><br>
+        <b>GitHub</b><br>
+        <a href="https://github.com/Dbz-Mahin7x">@Dbz-Mahin7x</a>
+      </td>
+      <td align="center">
+        <img src="https://img.icons8.com/color/48/000000/facebook.png" width="40"><br>
+        <b>Facebook</b><br>
+        <a href="https://www.facebook.com/RentaroAijo.4x">@Rentaro Aijo</a>
+      </td>
+    </tr>
+  </table>
+</p>
 
 ---
-#
 
-<br clear="both">
+## 🚀 𝐐𝐔𝐈𝐂𝐊 𝐋𝐈𝐍𝐊𝐒
 
-<img src="https://raw.githubusercontent.com/nazrul4x/nazrul4x/output/snake.svg" alt="Snake animation" />
+<p align="center">
+  <a href="https://github.com/Dbz-Mahin7x/MAHIRU/blob/main/Api.json">
+    <img src="https://img.shields.io/badge/📡_API_Config-Api.json-8A2BE2?style=for-the-badge">
+  </a>
+  <a href="https://github.com/Dbz-Mahin7x/MAHIRU/blob/main/CMDS.json">
+    <img src="https://img.shields.io/badge/📜_Command_List-CMDS.json-blue?style=for-the-badge">
+  </a>
+  <a href="https://github.com/Dbz-Mahin7x/MAHIRU/blob/main/CMDSRUL.json">
+    <img src="https://img.shields.io/badge/📋_Registry_Info-CMDSRUL.json-green?style=for-the-badge">
+  </a>
+</p>
 
-## <!-- 🌌 MahinOS: The Anime Hacker Terminal UI -->
-<div style="font-family: 'Fira Code', monospace; background: linear-gradient(to right, #0f0f0f, #1c1c1c); border-radius: 15px; box-shadow: 0 0 20px #00ffff99; padding: 30px; color: #00ffe0;">
+---
 
-  <h2 style="color: #00ffff; text-align: center;">🎀 Sᴏᴍᴇ Dᴇᴀᴛɪʟs </h2>
- 
-  <pre style="background: #111; padding: 15px; border-radius: 10px; color: #00ffea; overflow-x: auto;">
+## 📁 𝐅𝐈𝐋𝐄 𝐒𝐓𝐑𝐔𝐂𝐓𝐔𝐑𝐄
 
-> ʜᴏᴘɪɴɢ ᴛᴏ ʜᴀᴠᴇ ᴀ ʙᴇᴛᴛᴇʀ Fᴜᴛᴜʀᴇ ✨🫶🍭
+```
 
-✓ Oᴡɴᴇʀ Oғ Mᴀʜɪʀᴜ-sʜɪɴᴀ ✨🍫🍷
+📦 MAHIRU/
+├── 📄 Api.json          # Main API configuration
+├── 📄 CMDS.json         # Complete command list with URLs
+├── 📄 CMDSRUL.json      # Registry info & version timestamps
+├── 📄 README.md         # Documentation
+├── 📄 cmdstore.js       # Command storage management
+└── 📄 sing.js           # Music search & playback module
 
-✓ Aɴʏ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄғ Mᴀʜɪɴ Aʜᴍᴇᴅ🦋
+```
 
-✓ Mᴇssᴇɴɢᴇʀ Bᴏᴛ : Mᴀʜɪʀᴜ Sʜɪɴᴀ ➤ Aᴄᴛɪᴠᴇ 🎀
+---
 
-> Aʟᴡᴀʏs ɪɴ ᴅɪʀᴛʏ ᴍɪɴᴅ🍷
+## 🛠️ 𝐂𝐔𝐑𝐑𝐄𝐍𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒
 
-> Sᴛᴀᴛᴜs
-🎀Fᴀᴄᴇʙᴏᴏᴋ: RᴇɴᴛᴀʀᴏAɪᴊᴏ.4x 🍭Iɴsᴛᴀɢʀᴀᴍ:𝚍𝚋𝚣_𝚖𝚊𝚑𝚒𝚗    
+| Command | Author | Description | File |
+|---------|--------|-------------|------|
+| 🗃️ **cmdstore** | 𝐌𝐀𝐇𝐈𝐍 ✨ | Manages internal command storage and retrieval | `cmdstore.js` |
+| 🎵 **sing** | 𝐌𝐀𝐇𝐈𝐍 🎵 | Dedicated module for music search and playback | `sing.js` |
 
+---
 
-🍓ɴᴇᴠᴇʀ ɢɪᴠᴇ ᴜᴘ ᴀʟᴡᴀʏs ʜᴏᴘᴇ ғᴏʀ ᴀ ʙᴇᴛᴛᴇʀ ʟɪғᴇ 🎀 
+## ⚙️ 𝐇𝐎𝐖 𝐓𝐎 𝐔𝐒𝐄
 
-✨Sᴛᴏᴘ ᴄʜᴀsɪɴɢ Fᴀᴋᴇ ᴘᴇᴏᴘʟᴇs 🦋 
+### 📥 Fetch Commands via Raw URLs
 
- Lᴏɴᴇʟʏɴᴇᴇs ɪs ᴍʏ ᴠᴜʀᴛᴜᴇ🍫
+All commands are accessible through raw GitHub links. Get the URLs from `CMDS.json`.
 
-💔 ɪ ᴡᴀɴᴛ ᴘᴇᴀᴄᴇ 🥀
+### 🔧 Example: Loading a Command (Node.js)
+
+```javascript
+const axios = require('axios');
+
+// Raw URL from CMDS.json
+const commandUrl = "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/sing.js";
+
+async function loadCommand() {
+    try {
+        const response = await axios.get(commandUrl);
+        const commandCode = response.data;
+        
+        // Execute or save the command logic here
+        console.log('✅ Command loaded successfully!');
+        
+        // If you need to evaluate the command
+        // eval(commandCode);
+        
+    } catch (error) {
+        console.error('❌ Error loading command:', error.message);
+    }
+}
+
+loadCommand();
+```
+
+📱 Alternative: Direct Fetch
+
+```bash
+# Using curl
+curl -O https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/cmdstore.js
+
+# Using wget
+wget https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/sing.js
+```
+
+---
+
+📡 𝐀𝐏𝐈 𝐂𝐎𝐍𝐅𝐈𝐆𝐔𝐑𝐀𝐓𝐈𝐎𝐍
+
+The Api.json file contains the main API configuration. Structure example:
+
+```json
+{
+  "name": "MAHIRU",
+  "version": "2.0.0",
+  "author": "MAHIN",
+  "endpoints": {
+    "commands": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/CMDS.json",
+    "registry": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/CMDSRUL.json"
+  }
+}
+```
+
+---
+
+📋 𝐂𝐌𝐃𝐒.𝐉𝐒𝐎𝐍 𝐅𝐎𝐑𝐌𝐀𝐓
+
+```json
+{
+  "commands": [
+    {
+      "name": "cmdstore",
+      "author": "MAHIN ✨",
+      "description": "Manages internal command storage",
+      "url": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/cmdstore.js"
+    },
+    {
+      "name": "sing",
+      "author": "MAHIN 🎵",
+      "description": "Music search and playback module",
+      "url": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/sing.js"
+    }
+  ]
+}
+```
+
+---
+
+🔄 𝐔𝐏𝐃𝐀𝐓𝐄 𝐓𝐈𝐌𝐄𝐒𝐓𝐀𝐌𝐏𝐒
+
+Check CMDSRUL.json for the latest version information:
+
+```json
+{
+  "last_updated": "2026-03-08",
+  "version": "2.0.0",
+  "commands_count": 2,
+  "registry": {
+    "cmdstore": "2026-03-08",
+    "sing": "2026-03-08"
+  }
+}
+```
+
+⚡ Note: This repository is updated frequently. Always check CMDSRUL.json for the latest version timestamps.
+
+---
+
+🚀 𝐐𝐔𝐈𝐂𝐊 𝐃𝐄𝐏𝐋𝐎𝐘
+
+Deploy to Vercel (Optional)
+
+```json
+// vercel.json
+{
+  "name": "mahiru-cmd-store",
+  "version": 2,
+  "builds": [
+    {
+      "src": "*.json",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.js",
+      "use": "@vercel/static"
+    }
+  ]
+}
+```
+
+---
+
+📊 𝐑𝐄𝐏𝐎 𝐒𝐓𝐀𝐓𝐒
+
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/Dbz-Mahin7x/MAHIRU?color=gold&style=for-the-badge">
+  <img src="https://img.shields.io/github/repo-size/Dbz-Mahin7x/MAHIRU?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/Dbz-Mahin7x/MAHIRU?color=yellow&style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/Dbz-Mahin7x/MAHIRU?color=blue&style=for-the-badge">
+</p>
+
+---
+
+📞 𝐂𝐎𝐍𝐓𝐀𝐂𝐓
+
+<p align="center">
+  <a href="https://www.facebook.com/RentaroAijo.4x">
+    <img src="https://img.icons8.com/color/48/000000/facebook.png" width="50">
+  </a>
+  <a href="mailto:Mahinstarou@gmail.com">
+    <img src="https://img.icons8.com/color/48/000000/gmail.png" width="50">
+  </a>
+  <a href="https://github.com/Dbz-Mahin7x">
+    <img src="https://img.icons8.com/color/48/000000/github.png" width="50">
+  </a>
+</p>
+
+<p align="center">
+  <b>📧 Email:</b> Mahinstarou@gmail.com
+</p>
+
+---
+
+📝 𝐋𝐈𝐂𝐄𝐍𝐒𝐄
+
+```
+© 2026 MAHIRU Command Store
+Developed with ®️ by Mahin Ahmed
+All Rights Reserved
+
+This project is licensed for personal and educational use.
+Redistribution or commercial use requires permission.
+```
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=500&color=F75C7E&center=true&vCenter=true&width=435&lines=%F0%9F%93%A6+Command+Store+Ready!;%F0%9F%9A%80+Load+Commands+Instantly;%F0%9F%8C%99+MAHIRU+System">
+</p>
+
+<p align="center">
+  <b>Made with 💜 by MAHIN in Bangladesh 🇧🇩</b>
+</p>
+
+<p align="center">
+  <img src="https://profile-counter.glitch.me/mahiru-cmdstore/count.svg" alt="Visitor Count">
+</p>
