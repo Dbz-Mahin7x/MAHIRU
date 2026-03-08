@@ -1,25 +1,14 @@
 {
   "cmdName": [
     {
-      "cmd": "catbox",
-      "author": "𝐌𝐀𝐇𝐈𝐍 🎀",
-      "update": "19-12-2025"
-    },
-    {
-      "cmd": "profile",
-      "author": "𝐌𝐀𝐇𝐈𝐍 🦋",
-      "update": "19-12-2025"
-    },
-    {
       "cmd": "cmdstore",
       "author": "𝐌𝐀𝐇𝐈𝐍 ✨",
-      "update": "19-12-2025"
+      "update": "08-03-2026"
     },
     {
-      "cmd": "Rank",
-      "author": "NTKhang ✨",
-      "update": "19-12-2025"
- 
+      "cmd": "sing",
+      "author": "𝐌𝐀𝐇𝐈𝐍 🎵",
+      "update": "08-03-2026"
     }
- ]
+  ]
 }
