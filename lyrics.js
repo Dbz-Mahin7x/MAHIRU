@@ -4,7 +4,7 @@ module.exports = {
   name: 'lyrics',
   version: '1.0.0',
   hasPermssion: 0,
-  credits: '𝐌𝐀𝐇𝐈𝐍 ✨',
+  credits: '𝓡𝓮𝓷𝓽𝓪𝓻𝓸 𝐴𝓲𝓳𝓸 🌸🫧',
   description: '📝 Get song lyrics from your API',
   commandCategory: '𝐌𝐔𝐒𝐈𝐂',
   usages: '[title] by [artist]',
