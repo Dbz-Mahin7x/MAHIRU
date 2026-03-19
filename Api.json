@@ -1,4 +1,5 @@
 {
   "sing": "https://mahiru-song-api7.onrender.com",
-  "img": "https://mahiru-img-api.vercel.app"
+  "img": "https://mahiru-img-api.vercel.app",
+  "song-finder": "https://song-finder-api.vercel.app"
 }
