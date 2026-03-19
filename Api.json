@@ -1,3 +1,4 @@
 {
-"sing": "https://mahiru-song-api7.onrender.com"
+  "sing": "https://mahiru-song-api7.onrender.com",
+  "img": "https://mahiru-img-api.vercel.app"
 }
