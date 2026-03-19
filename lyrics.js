@@ -69,4 +69,33 @@ module.exports = {
         let lyrics = data.lyrics;
         
         if (lyrics.length > 4000) {
-          lyrics = lyrics.substring(0, 4000) + '...\n\n_Lyrics truncated (too long
+          lyrics = lyrics.substring(0, 4000) + '...\n\n_Lyrics truncated (too long)_';
+        }
+
+        const msg = `📝 𝐋𝐘𝐑𝐈𝐂𝐒\n` +
+                   `━━━━━━━━━━━━━━━━━━\n` +
+                   `🎵 Title: ${data.title || title}\n` +
+                   `👤 Artist: ${data.artist || artist || 'Unknown'}\n` +
+                   `━━━━━━━━━━━━━━━━━━\n\n` +
+                   `${lyrics}\n\n` +
+                   `━━━━━━━━━━━━━━━━━━\n` +
+                   `📝 Requested by @${event.senderID}`;
+
+        await api.sendMessage(msg, threadID, searchingMsg.messageID);
+      } else {
+        await api.sendMessage(
+          `❌ Lyrics not found\n\nCould not find lyrics for "${title}" ${artist ? 'by ' + artist : ''}`,
+          threadID,
+          searchingMsg.messageID
+        );
+      }
+    } catch (error) {
+      console.error('Lyrics error:', error);
+      await api.sendMessage(
+        `❌ Error fetching lyrics\n\n${error.message}`,
+        threadID,
+        searchingMsg.messageID
+      );
+    }
+  }
+};
