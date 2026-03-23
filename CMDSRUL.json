@@ -9,6 +9,46 @@
       "cmd": "sing",
       "author": "𝐌𝐀𝐇𝐈𝐍 🎵",
       "update": "08-03-2026"
+    },
+    {
+      "cmd": "anisr",
+      "author": "𝐌𝐀𝐇𝐈𝐍 🎬",
+      "update": "23-03-2026"
+    },
+    {
+      "cmd": "couple",
+      "author": "𝐌𝐀𝐇𝐈𝐍 💑",
+      "update": "23-03-2026"
+    },
+    {
+      "cmd": "eid",
+      "author": "𝐌𝐀𝐇𝐈𝐍 🌙",
+      "update": "23-03-2026"
+    },
+    {
+      "cmd": "lyrics",
+      "author": "𝐌𝐀𝐇𝐈𝐍 📝",
+      "update": "23-03-2026"
+    },
+    {
+      "cmd": "song",
+      "author": "𝐌𝐀𝐇𝐈𝐍 🎶",
+      "update": "23-03-2026"
+    },
+    {
+      "cmd": "songinfo",
+      "author": "𝐌𝐀𝐇𝐈𝐍 ℹ️",
+      "update": "23-03-2026"
+    },
+    {
+      "cmd": "trending",
+      "author": "𝐌𝐀𝐇𝐈𝐍 📈",
+      "update": "23-03-2026"
+    },
+    {
+      "cmd": "video",
+      "author": "𝐌𝐀𝐇𝐈𝐍 📹",
+      "update": "23-03-2026"
     }
   ]
 }
