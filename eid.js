@@ -29,7 +29,7 @@ module.exports = {
       return api.sendMessage(`⚠️ ${toBold("AUTHOR ERROR")}\n${divider}Don't change the author name! This command belongs to 𝓡𝓮𝓷𝓽𝓪𝓻𝓸 𝐴𝓲𝓳𝓸 🌸🫧`, event.threadID);
     }
 
-    const eidDate = new Date("March 21, 2026 00:00:00").getTime();
+    const eidDate = new Date("May 27, 2026 00:00:00").getTime();
     const now = new Date().getTime();
     const t = eidDate - now;
 
