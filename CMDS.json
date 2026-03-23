@@ -1,4 +1,12 @@
 {
   "cmdstore": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/cmdstore.js",
-  "sing": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/sing.js"
+  "sing": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/sing.js",
+  "anisr": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/anisr.js",
+  "couple": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/couple.js",
+  "eid": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/eid.js",
+  "lyrics": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/lyrics.js",
+  "song": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/song.js",
+  "songinfo": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/songinfo.js",
+  "trending": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/trending.js",
+  "video": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/video.js"
 }
