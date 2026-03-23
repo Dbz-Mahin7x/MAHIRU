@@ -5,5 +5,7 @@
   "video":
 "https://mahiru-video-api.vercel.app",
   "Couple":
-"https://mahiru-couple-api.onrender.com"
+"https://mahiru-couple-api.onrender.com",
+  "tiktok-dl":
+"https://mahiru-tiktok-down.vercel.app"
 }
