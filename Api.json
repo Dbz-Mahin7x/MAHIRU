@@ -7,5 +7,7 @@
   "Couple":
 "https://mahiru-couple-api.onrender.com",
   "tiktok-dl":
-"https://mahiru-tiktok-down.vercel.app"
+"https://mahiru-tiktok-down.vercel.app",
+  "mahiru":
+"https://mahiru-api.onrender.com"
 }
