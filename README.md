@@ -7,8 +7,8 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-2.0.0-purple?style=for-the-badge&logo=github">
-  <img src="https://img.shields.io/badge/Commands-3_Total-blue?style=for-the-badge&logo=javascript">
+  <img src="https://img.shields.io/badge/Version-3.0.0-purple?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/Commands-13_Total-blue?style=for-the-badge&logo=javascript">
   <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=for-the-badge&logo=vercel">
   <img src="https://img.shields.io/badge/API-Ready-ff69b4?style=for-the-badge&logo=json">
 </p>
@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=%F0%9F%93%A6+Command+Storage+System;%F0%9F%9A%80+Fast+%26+Reliable;%F0%9F%93%8C+Raw+GitHub+Links" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=%F0%9F%93%A6+Command+Storage+System;%F0%9F%9A%80+13+Commands+%26+Growing;%F0%9F%93%8C+Raw+GitHub+Links" alt="Typing SVG">
 </p>
 
 ---
@@ -74,19 +74,29 @@
 ├── 📄 CMDS.json         # Complete command list with URLs
 ├── 📄 CMDSRUL.json      # Registry info & version timestamps
 ├── 📄 README.md         # Documentation
-├── 📄 cmdstore.js       # Command storage management
-└── 📄 sing.js           # Music search & playback module
+└── 📄 [command_files]   # Individual command JS files
 
 ```
 
 ---
 
-## 🛠️ 𝐂𝐔𝐑𝐑𝐄𝐍𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒
+## 🛠️ 𝐂𝐔𝐑𝐑𝐄𝐍𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 (13 Total)
 
-| Command | Author | Description | File |
-|---------|--------|-------------|------|
-| 🗃️ **cmdstore** | 𝐌𝐀𝐇𝐈𝐍 ✨ | Manages internal command storage and retrieval | `cmdstore.js` |
-| 🎵 **sing** | 𝐌𝐀𝐇𝐈𝐍 🎵 | Dedicated module for music search and playback | `sing.js` |
+| # | Command | Author | Last Update | Description |
+|---|---------|--------|-------------|-------------|
+| 1 | 🍓 **cmdstore** | 𝐌𝐀𝐇𝐈𝐍 🎀 | 29-12-2025 | Manages internal command storage and retrieval |
+| 2 | 🎵 **sing** | 𝐌𝐀𝐇𝐈𝐍 🎀 | 08-03-2026 | Dedicated module for music search and playback |
+| 3 | 🎬 **anisr** | 𝐌𝐀𝐇𝐈𝐍 🎬 | 23-03-2026 | Anime search and information retrieval |
+| 4 | 🥂 **couple** | 𝐌𝐀𝐇𝐈𝐍 🎀 | 23-03-2026 | Generates random couple matching or love compatibility |
+| 5 | 🌙 **eid** | 𝐌𝐀𝐇𝐈𝐍 🌙 | 19-03-2026 | Eid greeting and celebration module |
+| 6 | 🌸 **lyrics** | 𝐌𝐀𝐇𝐈𝐍 🎀 | 16-03-2026 | Fetches song lyrics from various sources |
+| 7 | 🎶 **song** | 𝐌𝐀𝐇𝐈𝐍 🎀 | 16-03-2026 | Downloads or streams audio songs |
+| 8 | ℹ️ **songinfo** | 𝐌𝐀𝐇𝐈𝐍 🚩 | 16-03-2026 | Displays detailed metadata about songs |
+| 9 | 📈 **trending** | 𝐌𝐀𝐇𝐈𝐍 ✨ | 16-03-2026 | Shows trending music, videos, or topics |
+| 10 | 🎥 **video** | 𝐌𝐀𝐇𝐈𝐍 🎀 | 23-03-2026 | Video search and download functionality |
+| 11 | 📱 **tiktok** | 𝐌𝐀𝐇𝐈𝐍 🎀 | 23-03-2026 | TikTok video downloader without watermark |
+| 12 | 🎀 **mahiru** | 𝐌𝐀𝐇𝐈𝐍 🎀 | 01-01-2026 | Core bot information and status command |
+| 13 | 🍴 **fork** | 𝐌𝐀𝐇𝐈𝐍 🚩 | 16-03-2026 | Repository fork and deployment helper |
 
 ---
 
@@ -101,7 +111,7 @@ All commands are accessible through raw GitHub links. Get the URLs from `CMDS.js
 ```javascript
 const axios = require('axios');
 
-// Raw URL from CMDS.json
+// Raw URL from CMDS.json (example: sing command)
 const commandUrl = "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/sing.js";
 
 async function loadCommand() {
@@ -126,11 +136,16 @@ loadCommand();
 📱 Alternative: Direct Fetch
 
 ```bash
-# Using curl
-curl -O https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/cmdstore.js
+# Using curl (download sing command)
+curl -O https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/sing.js
 
-# Using wget
-wget https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/sing.js
+# Using wget (download lyrics command)
+wget https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/lyrics.js
+
+# Download multiple commands
+for cmd in anisr couple song video tiktok; do
+  curl -O https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/${cmd}.js
+done
 ```
 
 ---
@@ -142,7 +157,7 @@ The Api.json file contains the main API configuration. Structure example:
 ```json
 {
   "name": "MAHIRU",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": "MAHIN",
   "endpoints": {
     "commands": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/CMDS.json",
@@ -160,15 +175,24 @@ The Api.json file contains the main API configuration. Structure example:
   "commands": [
     {
       "name": "cmdstore",
-      "author": "MAHIN ✨",
-      "description": "Manages internal command storage",
+      "author": "𝐌𝐀𝐇𝐈𝐍 🎀",
+      "description": "Manages internal command storage and retrieval",
+      "update": "29-12-2025",
       "url": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/cmdstore.js"
     },
     {
       "name": "sing",
-      "author": "MAHIN 🎵",
-      "description": "Music search and playback module",
+      "author": "𝐌𝐀𝐇𝐈𝐍 🎀",
+      "description": "Dedicated module for music search and playback",
+      "update": "08-03-2026",
       "url": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/sing.js"
+    },
+    {
+      "name": "anisr",
+      "author": "𝐌𝐀𝐇𝐈𝐍 🎬",
+      "description": "Anime search and information retrieval",
+      "update": "23-03-2026",
+      "url": "https://raw.githubusercontent.com/Dbz-Mahin7x/MAHIRU/main/anisr.js"
     }
   ]
 }
@@ -182,17 +206,38 @@ Check CMDSRUL.json for the latest version information:
 
 ```json
 {
-  "last_updated": "2026-03-08",
-  "version": "2.0.0",
-  "commands_count": 2,
+  "last_updated": "2026-03-23",
+  "version": "3.0.0",
+  "commands_count": 13,
   "registry": {
-    "cmdstore": "2026-03-08",
-    "sing": "2026-03-08"
+    "cmdstore": "29-12-2025",
+    "sing": "08-03-2026",
+    "anisr": "23-03-2026",
+    "couple": "23-03-2026",
+    "eid": "19-03-2026",
+    "lyrics": "16-03-2026",
+    "song": "16-03-2026",
+    "songinfo": "16-03-2026",
+    "trending": "16-03-2026",
+    "video": "23-03-2026",
+    "tiktok": "23-03-2026",
+    "mahiru": "01-01-2026",
+    "fork": "16-03-2026"
   }
 }
 ```
 
 ⚡ Note: This repository is updated frequently. Always check CMDSRUL.json for the latest version timestamps.
+
+---
+
+📦 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐂𝐀𝐓𝐄𝐆𝐎𝐑𝐈𝐄𝐒
+
+Category Commands
+🎵 Music sing, lyrics, song, songinfo, trending
+🎬 Media video, tiktok, anisr
+💝 Fun couple, eid
+⚙️ System cmdstore, mahiru, fork
 
 ---
 
@@ -218,6 +263,22 @@ Deploy to Vercel (Optional)
 }
 ```
 
+Deploy to Replit / Heroku
+
+```bash
+# Clone the repository
+git clone https://github.com/Dbz-Mahin7x/MAHIRU.git
+
+# Navigate to directory
+cd MAHIRU
+
+# Install dependencies (if any)
+npm install axios
+
+# Run your bot with the commands
+node your-bot.js
+```
+
 ---
 
 📊 𝐑𝐄𝐏𝐎 𝐒𝐓𝐀𝐓𝐒
@@ -227,6 +288,7 @@ Deploy to Vercel (Optional)
   <img src="https://img.shields.io/github/repo-size/Dbz-Mahin7x/MAHIRU?color=red&style=for-the-badge">
   <img src="https://img.shields.io/github/stars/Dbz-Mahin7x/MAHIRU?color=yellow&style=for-the-badge">
   <img src="https://img.shields.io/github/forks/Dbz-Mahin7x/MAHIRU?color=blue&style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/Dbz-Mahin7x/MAHIRU?color=orange&style=for-the-badge">
 </p>
 
 ---
@@ -264,8 +326,18 @@ Redistribution or commercial use requires permission.
 
 ---
 
+⭐ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓
+
+If you find this project useful, please consider:
+
+· ⭐ Starring the repository on GitHub
+· 🍴 Forking to save for later
+· 📢 Sharing with friends
+
+---
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=500&color=F75C7E&center=true&vCenter=true&width=435&lines=%F0%9F%93%A6+Command+Store+Ready!;%F0%9F%9A%80+Load+Commands+Instantly;%F0%9F%8C%99+MAHIRU+System">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=500&color=F75C7E&center=true&vCenter=true&width=435&lines=%F0%9F%93%A6+13+Commands+Ready!;%F0%9F%9A%80+Load+Instantly;%F0%9F%8C%99+MAHIRU+System+Online">
 </p>
 
 <p align="center">
