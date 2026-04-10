@@ -32,15 +32,15 @@ const footer = `\n✧ ೃ༄ ──── ୨ 🧸 ୧ ──── ✧ ೃ༄`;
 module.exports = {
   config: {
     name: "lyrics",
-    aliases: ["ly"],
-    version: "1.1.0",
+    aliases: ["song", "ly", "lyric"],
+    version: "2.0.0",
     author: "𝓡𝓮𝓷𝓽𝓪𝓻𝓸 𝐴𝓲𝓳𝓸 🌸🫧",
     countDown: 5,
     role: 0,
-    shortDescription: "Get song lyrics",
-    longDescription: "Fetch lyrics with artist and image using your custom Vercel API",
+    shortDescription: "🎀 Get beautiful song lyrics",
+    longDescription: "Fetch lyrics with artist name and album art using your custom Vercel API",
     category: "music",
-    guide: "{pn} <song name>"
+    guide: { en: "{pn} <song name>" }
   },
 
   onStart: async function ({ api, event, args }) {
@@ -48,8 +48,19 @@ module.exports = {
     const songName = args.join(" ");
 
     if (!songName) {
-      return api.sendMessage(`${header}💔 ${toBold("Baby... give me a song name first")} 😩${footer}`, threadID, messageID);
+      api.setMessageReaction("🍭", messageID, () => {}, true);
+      return api.sendMessage(
+`${header}🎀 ${toBold("𝐇𝐞𝐲 𝐜𝐮𝐭𝐢𝐞, 𝐭𝐞𝐥𝐥 𝐦𝐞 𝐚 𝐬𝐨𝐧𝐠 𝐧𝐚𝐦𝐞!")} 🎀
+
+🌷 ${toBold("𝐄𝐱𝐚𝐦𝐩𝐥𝐞")}: lyrics blur
+💝 ${toBold("𝐄𝐱𝐚𝐦𝐩𝐥𝐞")}: lyrics shape of you
+🍭 ${toBold("𝐄𝐱𝐚𝐦𝐩𝐥𝐞")}: lyrics anime op
+
+✨ ${toBold("𝐈'𝐥𝐥 𝐟𝐢𝐧𝐝 𝐭𝐡𝐞 𝐥𝐲𝐫𝐢𝐜𝐬 𝐟𝐨𝐫 𝐲𝐨𝐮, 𝐦𝐲 𝐥𝐨𝐯𝐞~")}
+${footer}`, threadID, messageID);
     }
+
+    api.setMessageReaction("🫧", messageID, () => {}, true);
 
     try {
       const BASE_URL = await getLyricsApi();
@@ -59,23 +70,34 @@ module.exports = {
       const data = res.data;
 
       if (!data || data.status !== "success") {
-        return api.sendMessage(`${header}❌ ${toBold("Couldn't find those lyrics for you")} 😢${footer}`, threadID, messageID);
+        api.setMessageReaction("🥀", messageID, () => {}, true);
+        return api.sendMessage(
+`${header}🍂 ${toBold("𝐀𝐰𝐰, 𝐈 𝐜𝐨𝐮𝐥𝐝𝐧'𝐭 𝐟𝐢𝐧𝐝 𝐭𝐡𝐨𝐬𝐞 𝐥𝐲𝐫𝐢𝐜𝐬...")} 🥀
+
+💔 ${toBold("𝐓𝐫𝐲 𝐚 𝐝𝐢𝐟𝐟𝐞𝐫𝐞𝐧𝐭 𝐬𝐨𝐧𝐠 𝐧𝐚𝐦𝐞, 𝐝𝐚𝐫𝐥𝐢𝐧𝐠!")}
+✨ ${toBold("𝐄𝐱𝐚𝐦𝐩𝐥𝐞")}: lyrics perfect
+${footer}`, threadID, messageID);
       }
 
-      // Formatting the lyrics message
+      // Format the lyrics message without dividers
+      const lyricsText = data.lyrics.length > 3500 ? data.lyrics.slice(0, 3450) + "... (｡•́︿•̀｡) 𝐓𝐫𝐮𝐧𝐜𝐚𝐭𝐞𝐝" : data.lyrics;
+      
       const resultMsg = 
-`${header}🎵 ${toBold("Song")}: ${data.song}
-🎤 ${toBold("Artist")}: ${data.artist}
-👑 ${toBold("Dev")}: ${data.operator}
+`${header}🎵 ${toBold("𝐒𝐨𝐧𝐠")}: ${toBold(data.song)} 🎵
+🎤 ${toBold("𝐀𝐫𝐭𝐢𝐬𝐭")}: ${toBold(data.artist)}
+👑 ${toBold("𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫")}: ${toBold(data.operator)}
 
-━━━━━━━━━━━━━━━
-${data.lyrics.length > 3900 ? data.lyrics.slice(0, 3850) + "... (truncated)" : data.lyrics}
-━━━━━━━━━━━━━━━
+${lyricsText}
 
-🔗 ${toBold("Source")}: ${data.url}${footer}`;
+🔗 ${toBold("𝐒𝐨𝐮𝐫𝐜𝐞")}: ${data.url}
 
-      // Sending message with album art attachment
+🍭 ${toBold("𝐄𝐧𝐣𝐨𝐲 𝐭𝐡𝐞 𝐦𝐮𝐬𝐢𝐜, 𝐦𝐲 𝐥𝐨𝐯𝐞!")} 💖
+${footer}`;
+
+      // Send message with album art attachment
       const imageStream = await global.utils.getStreamFromURL(data.image);
+      
+      api.setMessageReaction("💗", messageID, () => {}, true);
       
       return api.sendMessage({
         body: resultMsg,
@@ -84,7 +106,13 @@ ${data.lyrics.length > 3900 ? data.lyrics.slice(0, 3850) + "... (truncated)" : d
 
     } catch (err) {
       console.error("Lyrics Error:", err.message);
-      return api.sendMessage(`${header}⚠️ ${toBold("The API is acting up... like my heart")} 💔${footer}`, threadID, messageID);
+      api.setMessageReaction("💔", messageID, () => {}, true);
+      return api.sendMessage(
+`${header}｡°(°¯᷄◠¯᷅°)°｡ ${toBold("𝐎𝐡 𝐧𝐨, 𝐭𝐡𝐞 𝐀𝐏𝐈 𝐢𝐬 𝐛𝐞𝐢𝐧𝐠 𝐬𝐡𝐲!")} 💔
+
+🌷 ${toBold("𝐏𝐥𝐞𝐚𝐬𝐞 𝐭𝐫𝐲 𝐚𝐠𝐚𝐢𝐧 𝐥𝐚𝐭𝐞𝐫, 𝐬𝐰𝐞𝐞𝐭𝐢𝐞~")}
+✨ ${toBold("𝐈 𝐤𝐧𝐨𝐰 𝐲𝐨𝐮'𝐫𝐞 𝐝𝐲𝐢𝐧𝐠 𝐭𝐨 𝐬𝐢𝐧𝐠 𝐚𝐥𝐨𝐧𝐠!")}
+${footer}`, threadID, messageID);
     }
   }
 };
