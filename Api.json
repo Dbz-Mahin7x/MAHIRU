@@ -9,5 +9,7 @@
   "tiktok-dl":
 "https://mahiru-tiktok-down.vercel.app",
   "mahiru":
-"https://mahiru-api.onrender.com"
+"https://mahiru-api.onrender.com",
+  "lyrics":
+"https://mahiru-lyrics-api.vercel.app"
 }
