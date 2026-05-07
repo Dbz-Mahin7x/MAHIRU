@@ -13,5 +13,7 @@
   "lyrics":
 "https://mahiru-lyrics-api.vercel.app",
   "alldl":
-"https://mahiru-alldl-7x.onrender.com"
+"https://mahiru-alldl-7x.onrender.com",
+  "finds":
+"https://mahiru-finds-api.onrender.com"
 }
